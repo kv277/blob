@@ -1,0 +1,6 @@
+services:
+  webgl:
+    container_name: webglTest
+    build: .
+    ports:
+      - "8080:80"
